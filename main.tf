@@ -12,10 +12,10 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "kajal1-s3bucket-date"
+    bucket         = "kajal-s3bucket-date"
     key            = "globalstate/s3/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "kajal1-date-dblocks"
+    dynamodb_table = "kajal-date-dblocks"
     encrypt        = true
   }
 }
