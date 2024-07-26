@@ -15,7 +15,7 @@ terraform {
     bucket         = "kajal2-s3bucket-date"
     key            = "globalstate/s3/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "kajal-date-dblocks"
+    dynamodb_table = "kajal2-date-dblocks"
     encrypt        = true
   }
 }
